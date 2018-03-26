@@ -21,40 +21,43 @@ This is very important in the business environment, when the findings from data 
   * Sentiment Analysis and Visualization
   * Visualizing Sentiment with Semiotic Squares
 
-# Package Installation
-Seaborn
-Seaborn is a Python visualization library based on matplotlib. It provides a high-level interface for drawing attractive statistical graphics.
-https://seaborn.pydata.org/
-pip install seaborn or conda install seaborn
-Bokeh
-Bokeh is a Python interactive visualization library that targets modern web browsers for presentation.
-https://bokeh.pydata.org/en/latest/
-pip install bokeh or conda install bokeh
-NLTK
-Package for text analytics
-pip install NLTK
-Scattertext
-A tool for finding distinguishing terms in small-to-medium-sized corpora, and presenting them in a sexy, interactive scatter plot with non-overlapping term labels. Exploratory data analysis just got more fun.
-https://github.com/JasonKessler/scattertext#installation
-pip install scattertext
+# Package Installation and Prerequisites
+```
+* Seaborn
+  * Seaborn is a Python visualization library based on matplotlib. It provides a high-level interface for drawing attractive statistical graphics.
+  * https://seaborn.pydata.org/
+  * pip install seaborn
+  * conda install seaborn
+* Bokeh
+  * Bokeh is a Python interactive visualization library that targets modern web browsers for presentation.
+  * https://bokeh.pydata.org/en/latest/
+  * pip install bokeh or conda install bokeh
+* NLTK
+  * Package for text analytics
+  * pip install NLTK
+* Scattertext
+  * A tool for finding distinguishing terms in small-to-medium-sized corpora, and presenting them in a sexy, interactive scatter plot with non-overlapping term labels. Exploratory data analysis just got more fun.
+  * https://github.com/JasonKessler/scattertext#installation
+  * pip install scattertext
+
 We will also need some additional packages to use Scattertext:
-SpaCY
-https://spacy.io/usage/
-conda install -c conda-forge spacy or pip install -U spacy
-Now you need to download a language model.
-Make sure to run command promt as administrator
-python -m spacy download en
-Jieba
-https://github.com/fxsjy/jieba
-pip install jieba
-Empath
-https://github.com/Ejhfast/empath-client
-Find out more here: https://arxiv.org/pdf/1602.06979.pdf
-pip install empath
-Gensim
-https://radimrehurek.com/gensim/
-conda install -c anaconda gensim
-UMAP
-https://github.com/lmcinnes/umap
-pip install umap
-Note: Some of these packages may require Python 3.6 and will not work on python 2.7
+* SpaCY
+  * https://spacy.io/usage/
+  * conda install -c conda-forge spacy or pip install -U spacy
+  * Now you need to download a language model.
+    * Make sure to run command promt as administrator
+    * python -m spacy download en
+* Jieba
+  * https://github.com/fxsjy/jieba
+  * pip install jieba
+* Empath
+  * https://github.com/Ejhfast/empath-client
+  * Find out more here: https://arxiv.org/pdf/1602.06979.pdf
+  * pip install empath
+* Gensim
+  * https://radimrehurek.com/gensim/
+  * conda install -c anaconda gensim
+* UMAP
+  * https://github.com/lmcinnes/umap
+  * pip install umap
+  * Note: Some of these packages may require Python 3.6 and will not work on python 2.7

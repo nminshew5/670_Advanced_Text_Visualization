@@ -8,7 +8,7 @@ This is very important in the business environment, when the findings from data 
 ## Outline of Topics and Packages Covered
 * Setup and Install Packages
   * Import Packages
-* Basic Descriptive Text Analytics Visualization
+* <a href="https://github.com/nminshew5/670_Advanced_Text_Visualization/blob/master/Basic%20Descriptive%20Text%20Analytics%20Visualization.ipynb" title="Basic Descriptive Text Analytics Visualization"> Basic Descriptive Text Analytics Visualization</a>
   * Loading and preparing data
   * Matplot Visualization of Word Frequency
   * Seaborn Visualization of Word Frequency
@@ -16,10 +16,16 @@ This is very important in the business environment, when the findings from data 
   * Data Processing Using Scattertext
   * Creating Corpus using scatter text and spaCY
   * Visualizing Terms and Associations with Scattertext
+    * <a href="https://github.com/nminshew5/670_Advanced_Text_Visualization/blob/master/Debate_Data_Scattertext.ipynb" title="Debate Dataset"> Debate Dataset </a>
+    * <a href="https://github.com/nminshew5/670_Advanced_Text_Visualization/blob/master/Hotel_Reviews_Scatter_Text.ipynb" title="Hotel Reviews"> Hotel Reviews Dataset</a>
   * Topic Modeling Visualization with Scattertext and Empath
+    * <a href="https://github.com/nminshew5/670_Advanced_Text_Visualization/blob/master/Debate_Data_Scattertext.ipynb" title="Debate Dataset"> Debate Dataset </a>
+    * <a href="https://github.com/nminshew5/670_Advanced_Text_Visualization/blob/master/Hotel_Reviews_Scatter_Text.ipynb" title="Hotel Reviews"> Hotel Reviews Dataset</a>
   * Text Classification Visualization with Scattertext and SKlearn
+    * <a href="https://github.com/nminshew5/670_Advanced_Text_Visualization/blob/master/Text%20Classification%20Weights.ipynb" title="Text Classification"> Text Classification </a>
   * Sentiment Analysis and Visualization
   * Visualizing Sentiment with Semiotic Squares
+    * <a href="https://github.com/nminshew5/670_Advanced_Text_Visualization/blob/master/Hotel_Reviews_Scatter_Text.ipynb" title="Hotel Reviews"> Hotel Reviews Dataset</a>
 
 # Package Installation and Prerequisites
 *Note: Some of these packages may require Python 3.6 and will not work on python 2.7*
